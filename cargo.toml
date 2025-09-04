@@ -1,0 +1,12 @@
+[package]
+name = "lockprio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.8"
+mimalloc-rust = "0.1"
+array-init = "2.1"
+
+[dev-dependencies]
+loom = "0.5"  # Regular dev-dependency (not optional)
